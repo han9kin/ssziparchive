@@ -13,8 +13,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFCA766514DA28EC0058FC07"
-               BuildableName = "SSZipArchive.framework"
+               BlueprintIdentifier = "CFCA75F214DA168F0058FC07"
+               BuildableName = "libSSZipArchive.a"
                BlueprintName = "SSZipArchive"
                ReferencedContainer = "container:SSZipArchive.xcodeproj">
             </BuildableReference>
@@ -45,6 +45,7 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <AdditionalOptions>

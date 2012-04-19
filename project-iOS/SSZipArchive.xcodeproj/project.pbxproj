@@ -10,7 +10,7 @@
 		CFCA75F714DA168F0058FC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA75F614DA168F0058FC07 /* Foundation.framework */; };
 		CFCA760514DA168F0058FC07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA760414DA168F0058FC07 /* SenTestingKit.framework */; };
 		CFCA760814DA168F0058FC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA75F614DA168F0058FC07 /* Foundation.framework */; };
-		CFCA762B14DA19320058FC07 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762914DA19320058FC07 /* SSZipArchive.h */; };
+		CFCA762B14DA19320058FC07 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762914DA19320058FC07 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFCA762C14DA19320058FC07 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA762A14DA19320058FC07 /* SSZipArchive.m */; };
 		CFCA763714DA194A0058FC07 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762E14DA194A0058FC07 /* crypt.h */; };
 		CFCA763814DA194A0058FC07 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCA762F14DA194A0058FC07 /* ioapi.c */; };
@@ -24,37 +24,10 @@
 		CFCA764514DA19D60058FC07 /* SSZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA764214DA19D60058FC07 /* SSZipArchiveTests.m */; };
 		CFCA764614DA19D60058FC07 /* TestArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = CFCA764314DA19D60058FC07 /* TestArchive.zip */; };
 		CFCA764814DA27740058FC07 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA764714DA27740058FC07 /* libz.dylib */; };
-		CFCA764B14DA27A60058FC07 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA762A14DA19320058FC07 /* SSZipArchive.m */; };
-		CFCA764C14DA27A60058FC07 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCA762F14DA194A0058FC07 /* ioapi.c */; };
-		CFCA764D14DA27A60058FC07 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCA763114DA194A0058FC07 /* mztools.c */; };
-		CFCA764E14DA27A60058FC07 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCA763314DA194A0058FC07 /* unzip.c */; };
-		CFCA764F14DA27A60058FC07 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCA763514DA194A0058FC07 /* zip.c */; };
-		CFCA765114DA27A60058FC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA75F614DA168F0058FC07 /* Foundation.framework */; };
-		CFCA765314DA27A60058FC07 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762914DA19320058FC07 /* SSZipArchive.h */; };
-		CFCA765414DA27A60058FC07 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762E14DA194A0058FC07 /* crypt.h */; };
-		CFCA765514DA27A60058FC07 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA763014DA194A0058FC07 /* ioapi.h */; };
-		CFCA765614DA27A60058FC07 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA763214DA194A0058FC07 /* mztools.h */; };
-		CFCA765714DA27A60058FC07 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA763414DA194A0058FC07 /* unzip.h */; };
-		CFCA765814DA27A60058FC07 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA763614DA194A0058FC07 /* zip.h */; };
-		CFCA767E14DA2A800058FC07 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA762914DA19320058FC07 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFCA768914DA2C640058FC07 /* libSSZipArchive-Device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA75F314DA168F0058FC07 /* libSSZipArchive-Device.a */; };
+		CFCA768914DA2C640058FC07 /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA75F314DA168F0058FC07 /* libSSZipArchive.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CFCA767A14DA2A770058FC07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFCA75EA14DA168F0058FC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFCA75F214DA168F0058FC07;
-			remoteInfo = "SSZipArchive-Device";
-		};
-		CFCA767C14DA2A770058FC07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFCA75EA14DA168F0058FC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFCA764914DA27A60058FC07;
-			remoteInfo = "SSZipArchive-Simulator";
-		};
 		CFCA768714DA2C600058FC07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CFCA75EA14DA168F0058FC07 /* Project object */;
@@ -65,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFCA75F314DA168F0058FC07 /* libSSZipArchive-Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSSZipArchive-Device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA75F314DA168F0058FC07 /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCA75F614DA168F0058FC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFCA760314DA168F0058FC07 /* SSZipArchiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSZipArchiveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCA760414DA168F0058FC07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -85,9 +58,6 @@
 		CFCA764214DA19D60058FC07 /* SSZipArchiveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveTests.m; sourceTree = "<group>"; };
 		CFCA764314DA19D60058FC07 /* TestArchive.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = TestArchive.zip; sourceTree = "<group>"; };
 		CFCA764714DA27740058FC07 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		CFCA765C14DA27A60058FC07 /* libSSZipArchive-Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSSZipArchive-Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFCA766614DA28EC0058FC07 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFCA766F14DA28EC0058FC07 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,22 +76,7 @@
 				CFCA760514DA168F0058FC07 /* SenTestingKit.framework in Frameworks */,
 				CFCA760814DA168F0058FC07 /* Foundation.framework in Frameworks */,
 				CFCA764814DA27740058FC07 /* libz.dylib in Frameworks */,
-				CFCA768914DA2C640058FC07 /* libSSZipArchive-Device.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFCA765014DA27A60058FC07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFCA765114DA27A60058FC07 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFCA766214DA28EC0058FC07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CFCA768914DA2C640058FC07 /* libSSZipArchive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +88,6 @@
 			children = (
 				CFCA75F814DA168F0058FC07 /* SSZipArchive */,
 				CFCA760C14DA168F0058FC07 /* SSZipArchiveTests */,
-				CFCA766E14DA28EC0058FC07 /* Supporting Files */,
 				CFCA75F514DA168F0058FC07 /* Frameworks */,
 				CFCA75F414DA168F0058FC07 /* Products */,
 			);
@@ -142,9 +96,7 @@
 		CFCA75F414DA168F0058FC07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFCA766614DA28EC0058FC07 /* SSZipArchive.framework */,
-				CFCA75F314DA168F0058FC07 /* libSSZipArchive-Device.a */,
-				CFCA765C14DA27A60058FC07 /* libSSZipArchive-Simulator.a */,
+				CFCA75F314DA168F0058FC07 /* libSSZipArchive.a */,
 				CFCA760314DA168F0058FC07 /* SSZipArchiveTests.octest */,
 			);
 			name = Products;
@@ -199,14 +151,6 @@
 			path = minizip;
 			sourceTree = "<group>";
 		};
-		CFCA766E14DA28EC0058FC07 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFCA766F14DA28EC0058FC07 /* SSZipArchive-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -223,45 +167,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFCA765214DA27A60058FC07 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFCA765314DA27A60058FC07 /* SSZipArchive.h in Headers */,
-				CFCA765414DA27A60058FC07 /* crypt.h in Headers */,
-				CFCA765514DA27A60058FC07 /* ioapi.h in Headers */,
-				CFCA765614DA27A60058FC07 /* mztools.h in Headers */,
-				CFCA765714DA27A60058FC07 /* unzip.h in Headers */,
-				CFCA765814DA27A60058FC07 /* zip.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFCA766314DA28EC0058FC07 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFCA767E14DA2A800058FC07 /* SSZipArchive.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CFCA75F214DA168F0058FC07 /* SSZipArchive-Device */ = {
+		CFCA75F214DA168F0058FC07 /* SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFCA761714DA168F0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive-Device" */;
+			buildConfigurationList = CFCA761714DA168F0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
 			buildPhases = (
 				CFCA75EF14DA168F0058FC07 /* Sources */,
 				CFCA75F014DA168F0058FC07 /* Frameworks */,
 				CFCA75F114DA168F0058FC07 /* Headers */,
+				CF04AF2A153FAF4400C4241E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SSZipArchive-Device";
+			name = SSZipArchive;
 			productName = SSZipArchive;
-			productReference = CFCA75F314DA168F0058FC07 /* libSSZipArchive-Device.a */;
+			productReference = CFCA75F314DA168F0058FC07 /* libSSZipArchive.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		CFCA760214DA168F0058FC07 /* SSZipArchiveTests */ = {
@@ -282,44 +206,6 @@
 			productName = SSZipArchiveTests;
 			productReference = CFCA760314DA168F0058FC07 /* SSZipArchiveTests.octest */;
 			productType = "com.apple.product-type.bundle";
-		};
-		CFCA764914DA27A60058FC07 /* SSZipArchive-Simulator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFCA765914DA27A60058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive-Simulator" */;
-			buildPhases = (
-				CFCA764A14DA27A60058FC07 /* Sources */,
-				CFCA765014DA27A60058FC07 /* Frameworks */,
-				CFCA765214DA27A60058FC07 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SSZipArchive-Simulator";
-			productName = SSZipArchive;
-			productReference = CFCA765C14DA27A60058FC07 /* libSSZipArchive-Simulator.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CFCA766514DA28EC0058FC07 /* SSZipArchive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFCA767714DA28EC0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
-			buildPhases = (
-				CFCA766114DA28EC0058FC07 /* Sources */,
-				CFCA766214DA28EC0058FC07 /* Frameworks */,
-				CFCA766314DA28EC0058FC07 /* Headers */,
-				CFCA766414DA28EC0058FC07 /* Resources */,
-				CFCA767F14DA2ADC0058FC07 /* Lipo Binary */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFCA767B14DA2A770058FC07 /* PBXTargetDependency */,
-				CFCA767D14DA2A770058FC07 /* PBXTargetDependency */,
-			);
-			name = SSZipArchive;
-			productName = SSZipArchive;
-			productReference = CFCA766614DA28EC0058FC07 /* SSZipArchive.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -342,9 +228,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFCA766514DA28EC0058FC07 /* SSZipArchive */,
-				CFCA75F214DA168F0058FC07 /* SSZipArchive-Device */,
-				CFCA764914DA27A60058FC07 /* SSZipArchive-Simulator */,
+				CFCA75F214DA168F0058FC07 /* SSZipArchive */,
 				CFCA760214DA168F0058FC07 /* SSZipArchiveTests */,
 			);
 		};
@@ -359,16 +243,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFCA766414DA28EC0058FC07 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		CF04AF2A153FAF4400C4241E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh ${SRCROOT}/Tools/BuildUniversalFramework.sh\n";
+			showEnvVarsInLog = 0;
+		};
 		CFCA760114DA168F0058FC07 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,20 +272,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		CFCA767F14DA2ADC0058FC07 /* Lipo Binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Lipo Binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\nlipo \\\n\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/libSSZipArchive-Device.a\" \\\n\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/libSSZipArchive-Simulator.a\" \\\n-create -output \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\ncd \"${FRAMEWORK}\" && ln -sf \"Versions/Current/${PRODUCT_NAME}\" ./";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -419,41 +296,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFCA764A14DA27A60058FC07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFCA764B14DA27A60058FC07 /* SSZipArchive.m in Sources */,
-				CFCA764C14DA27A60058FC07 /* ioapi.c in Sources */,
-				CFCA764D14DA27A60058FC07 /* mztools.c in Sources */,
-				CFCA764E14DA27A60058FC07 /* unzip.c in Sources */,
-				CFCA764F14DA27A60058FC07 /* zip.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFCA766114DA28EC0058FC07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CFCA767B14DA2A770058FC07 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFCA75F214DA168F0058FC07 /* SSZipArchive-Device */;
-			targetProxy = CFCA767A14DA2A770058FC07 /* PBXContainerItemProxy */;
-		};
-		CFCA767D14DA2A770058FC07 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFCA764914DA27A60058FC07 /* SSZipArchive-Simulator */;
-			targetProxy = CFCA767C14DA2A770058FC07 /* PBXContainerItemProxy */;
-		};
 		CFCA768814DA2C600058FC07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFCA75F214DA168F0058FC07 /* SSZipArchive-Device */;
+			target = CFCA75F214DA168F0058FC07 /* SSZipArchive */;
 			targetProxy = CFCA768714DA2C600058FC07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,13 +349,10 @@
 		CFCA761814DA168F0058FC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -515,13 +360,13 @@
 		CFCA761914DA168F0058FC07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
+				"ARCHS[sdk=iphoneos*]" = (
 					armv6,
 					armv7,
 				);
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -534,6 +379,7 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "../Tests/SSZipArchiveTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -547,85 +393,9 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "../Tests/SSZipArchiveTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-		CFCA765A14DA27A60058FC07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphonesimulator;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CFCA765B14DA27A60058FC07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphonesimulator;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CFCA767814DA28EC0058FC07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-					i386,
-				);
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "SSZipArchive-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = "armv6 armv7 i386";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		CFCA767914DA28EC0058FC07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-					i386,
-				);
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "SSZipArchive-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = "armv6 armv7 i386";
-				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -641,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFCA761714DA168F0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive-Device" */ = {
+		CFCA761714DA168F0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFCA761814DA168F0058FC07 /* Debug */,
@@ -655,24 +425,6 @@
 			buildConfigurations = (
 				CFCA761B14DA168F0058FC07 /* Debug */,
 				CFCA761C14DA168F0058FC07 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFCA765914DA27A60058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive-Simulator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFCA765A14DA27A60058FC07 /* Debug */,
-				CFCA765B14DA27A60058FC07 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFCA767714DA28EC0058FC07 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFCA767814DA28EC0058FC07 /* Debug */,
-				CFCA767914DA28EC0058FC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
